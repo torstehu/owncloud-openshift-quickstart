@@ -3,7 +3,7 @@ USAGE
 
 Create an OpenShift aplication, you are free to replace *owncloud* with a different name:
 
-    $ rhc app-create owncloud php mysql --from-code https://github.com/C5OK5Y/owncloud-openshift-quickstart.git
+    $ rhc app-create owncloud php-5.3 mysql-5.1 --from-code https://github.com/C5OK5Y/owncloud-openshift-quickstart.git
 
 Optionally add this repository as *upstream*:
 
