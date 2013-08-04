@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# backup the config file, in case of an application rebuild
+if [ -f $OPENSHIFT_REPO_DIR/php/config/config.php ]
+then
+    cp -f $OPENSHIFT_REPO_DIR/php/config/config.php $OPENSHIFT_DATA_DIR/config.php
+fi
