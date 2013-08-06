@@ -15,6 +15,11 @@ $AUTOCONFIG = array(
             'url'      => '/apps',
             'writable' => true,
         ),
+        1 => array(
+            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/extapps/apps',
+            'url'      => '/extapps/apps',
+            'writable' => false,
+        ),
     ),
 );
 ?>
