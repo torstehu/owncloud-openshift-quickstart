@@ -8,5 +8,5 @@ then
 elif [ -f $OPENSHIFT_REPO_DIR/misc/autoconfig.php ]
 then
     cp $OPENSHIFT_REPO_DIR/misc/autoconfig.php $OPENSHIFT_REPO_DIR/php/config
-    php $OPENSHIFT_REPO_DIR/php/index.php # trigger the autoconfig
+    cd $OPENSHIFT_REPO_DIR/php && php index.php # trigger the autoconfig
 fi
