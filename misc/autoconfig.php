@@ -20,6 +20,11 @@ $AUTOCONFIG = array(
             'url'      => '/extapps/apps',
             'writable' => false,
         ),
+        2 => array(
+            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/extapps/bookmarks',
+            'url'      => '/extapps/bookmarks',
+            'writable' => false,
+        ),
     ),
 );
 ?>

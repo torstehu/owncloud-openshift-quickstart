@@ -4,3 +4,6 @@
 [submodule "extapps/apps"]
 	path = extapps/apps
 	url = https://github.com/owncloud/apps.git
+[submodule "extapps/bookmarks"]
+	path = extapps/bookmarks
+	url = https://github.com/owncloud/bookmarks.git
