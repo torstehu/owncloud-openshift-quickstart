@@ -9,5 +9,12 @@ $AUTOCONFIG = array(
     "adminlogin"    => "admin",
     "adminpass"     => "password",
     "directory"     => $_ENV['OPENSHIFT_DATA_DIR'],
+    "apps_paths"    => array(
+        0 => array(
+            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/php/apps',
+            'url'      => '/apps',
+            'writable' => true,
+        ),
+    ),
 );
 ?>
