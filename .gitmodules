@@ -10,3 +10,6 @@
 [submodule "extapps/calendar"]
 	path = extapps/calendar
 	url = https://github.com/owncloud/calendar.git
+[submodule "extapps/contacts"]
+	path = extapps/contacts
+	url = https://github.com/owncloud/contacts.git
