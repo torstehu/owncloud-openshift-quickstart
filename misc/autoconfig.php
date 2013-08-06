@@ -1,13 +1,13 @@
 <?php
 $AUTOCONFIG = array(
     "dbtype"        => "mysql",
-    "dbname"        => getenv('OPENSHIFT_APP_NAME'),
-    "dbuser"        => getenv('OPENSHIFT_MYSQL_DB_USERNAME'),
-    "dbpass"        => getenv('OPENSHIFT_MYSQL_DB_PASSWORD'),
-    "dbhost"        => getenv('OPENSHIFT_MYSQL_DB_HOST') . ':' . getenv('OPENSHIFT_MYSQL_DB_PORT'),
+    "dbname"        => $_ENV['OPENSHIFT_APP_NAME'],
+    "dbuser"        => $_ENV['OPENSHIFT_MYSQL_DB_USERNAME'],
+    "dbpass"        => $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'],
+    "dbhost"        => $_ENV['OPENSHIFT_MYSQL_DB_HOST'] . ':' . $_ENV['OPENSHIFT_MYSQL_DB_PORT'],
     "dbtableprefix" => "oc_",
     "adminlogin"    => "admin",
     "adminpass"     => "password",
-    "directory"     => getenv('OPENSHIFT_DATA_DIR'),
+    "directory"     => $_ENV['OPENSHIFT_DATA_DIR'],
 );
 ?>
