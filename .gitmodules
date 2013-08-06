@@ -7,3 +7,6 @@
 [submodule "extapps/bookmarks"]
 	path = extapps/bookmarks
 	url = https://github.com/owncloud/bookmarks.git
+[submodule "extapps/calendar"]
+	path = extapps/calendar
+	url = https://github.com/owncloud/calendar.git
