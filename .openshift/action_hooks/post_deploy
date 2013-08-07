@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # copy the backed up config file into the config directory
-# else copy the autoconfig file into the config directory
+# else copy the autoconfig and config file into the config directory
 if [ -f $OPENSHIFT_DATA_DIR/config.php ]
 then
     cp $OPENSHIFT_DATA_DIR/config.php $OPENSHIFT_REPO_DIR/php/config
-elif [ -f $OPENSHIFT_REPO_DIR/misc/autoconfig.php ]
+elif [ -f $OPENSHIFT_REPO_DIR/misc/autoconfig.php \
+    -a -f $OPENSHIFT_REPO_DIR/misc/config.php ]
 then
-    cp $OPENSHIFT_REPO_DIR/misc/autoconfig.php $OPENSHIFT_REPO_DIR/php/config
+    cp -t $OPENSHIFT_REPO_DIR/php/config $OPENSHIFT_REPO_DIR/misc/{auto,}config.php
     cd $OPENSHIFT_REPO_DIR/php && php index.php # trigger the autoconfig
 fi
