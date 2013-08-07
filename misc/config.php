@@ -1,7 +1,8 @@
 <?php
-"3rdpartyroot" => $_ENV['OPENSHIFT_REPO_DIR'] . '/lib',
 $CONFIG = array(
-    "apps_paths" => array(
+    "3rdpartyroot" => $_ENV['OPENSHIFT_REPO_DIR'] . "/lib",
+    "3rdpartyurl"  => "/3rdparty",
+    "apps_paths"   => array(
         0 => array(
             'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/php/apps',
             'url'      => '/apps',
