@@ -1,7 +1,12 @@
+[submodule "lib/apps"]
+	path = lib/apps
+	url = https://github.com/owncloud/apps.git
+	branch = stable5
+[submodule "lib/3rdparty"]
+	path = lib/3rdparty
+	url = https://github.com/owncloud/3rdparty.git
+	branch = stable5
 [submodule "php"]
 	path = php
 	url = https://github.com/owncloud/core.git
-[submodule "extapps/apps-stable5"]
-	path = extapps/apps-stable5
-	url = https://github.com/owncloud/apps.git
 	branch = stable5
