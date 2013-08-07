@@ -37,4 +37,3 @@ $AUTOCONFIG = array(
         ),
     ),
 );
-?>
