@@ -1,15 +1,7 @@
 [submodule "php"]
 	path = php
 	url = https://github.com/owncloud/core.git
-[submodule "extapps/apps"]
-	path = extapps/apps
+[submodule "extapps/apps-stable5"]
+	path = extapps/apps-stable5
 	url = https://github.com/owncloud/apps.git
-[submodule "extapps/single/bookmarks"]
-	path = extapps/single/bookmarks
-	url = https://github.com/owncloud/bookmarks.git
-[submodule "extapps/single/calendar"]
-	path = extapps/single/calendar
-	url = https://github.com/owncloud/calendar.git
-[submodule "extapps/single/contacts"]
-	path = extapps/single/contacts
-	url = https://github.com/owncloud/contacts.git
+	branch = stable5

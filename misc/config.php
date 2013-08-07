@@ -7,13 +7,8 @@ $CONFIG = array(
             'writable' => true,
         ),
         1 => array(
-            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/extapps/apps',
-            'url'      => '/extapps/apps',
-            'writable' => false,
-        ),
-        2 => array(
-            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/extapps/single',
-            'url'      => '/extapps/single',
+            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/extapps/apps-stable5',
+            'url'      => '/extapps/apps-stable5',
             'writable' => false,
         ),
     ),
