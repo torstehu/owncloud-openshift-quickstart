@@ -4,12 +4,12 @@
 [submodule "extapps/apps"]
 	path = extapps/apps
 	url = https://github.com/owncloud/apps.git
-[submodule "extapps/bookmarks"]
-	path = extapps/bookmarks
+[submodule "extapps/single/bookmarks"]
+	path = extapps/single/bookmarks
 	url = https://github.com/owncloud/bookmarks.git
-[submodule "extapps/calendar"]
-	path = extapps/calendar
+[submodule "extapps/single/calendar"]
+	path = extapps/single/calendar
 	url = https://github.com/owncloud/calendar.git
-[submodule "extapps/contacts"]
-	path = extapps/contacts
+[submodule "extapps/single/contacts"]
+	path = extapps/single/contacts
 	url = https://github.com/owncloud/contacts.git

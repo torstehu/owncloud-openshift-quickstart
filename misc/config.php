@@ -12,18 +12,8 @@ $CONFIG = array(
             'writable' => false,
         ),
         2 => array(
-            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/extapps/bookmarks',
-            'url'      => '/extapps/bookmarks',
-            'writable' => false,
-        ),
-        3 => array(
-            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/extapps/calendar',
-            'url'      => '/extapps/calendar',
-            'writable' => false,
-        ),
-        4 => array(
-            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/extapps/contacts',
-            'url'      => '/extapps/contacts',
+            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/extapps/single',
+            'url'      => '/extapps/single',
             'writable' => false,
         ),
     ),
