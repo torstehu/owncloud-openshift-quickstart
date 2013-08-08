@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# symlink dirs which need to be externally exposed
+ln -s $OPENSHIFT_REPO_DIR/lib/apps $OPENSHIFT_REPO_DIR/php/apps2
+
 # copy the backed up config file into the config directory
 # else copy the autoconfig and config file into the config directory
 if [ -f $OPENSHIFT_DATA_DIR/config.php ]

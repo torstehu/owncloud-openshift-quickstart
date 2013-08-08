@@ -9,7 +9,7 @@ $CONFIG = array(
             'writable' => true,
         ),
         1 => array(
-            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/lib/apps',
+            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/php/apps2',
             'url'      => '/apps2',
             'writable' => false,
         ),
