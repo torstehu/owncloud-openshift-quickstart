@@ -12,7 +12,7 @@ $CONFIG = array(
             'writable' => false,
         ),
         2 => array(
-            'path'     => $_ENV['OPENSHIFT_DATA_DIR'] . '/userapps',
+            'path'     => $_ENV['OPENSHIFT_REPO_DIR'] . '/php/userapps',
             'url'      => '/userapps',
             'writable' => true,
         ),
